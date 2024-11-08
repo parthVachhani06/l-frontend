@@ -1,0 +1,191 @@
+/* body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fb;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .register-section {
+    width: 45%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-section h2 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #030229;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  input,
+  select {
+    width: 48%;
+    padding: 13px 14px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+    color: #030229;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px 14px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4f4f4f;
+    background-color: #f6f8fb;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0e4e8;
+  }
+  
+  .info-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hospital {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .hospital img {
+    max-width: 100px;
+  }
+  
+  .hospital h1 {
+    margin-left: 15px;
+    font-size: 45px;
+    color: #0eabeb;
+  }
+  
+  .hospital p {
+    font-size: 16px;
+    color: #0eabeb;
+  }
+  
+  .illustration {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4f4f4f;
+  }
+  
+  p a {
+    text-decoration: none;
+    color: #0eabeb;
+  }
+   */
+   .container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-photo {
+    border-radius: 50%;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+  }
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-blue {
+    background-color: #0eabeb;
+    color: #fff;
+  }
+  
+  .btn-gray {
+    background-color: #d3d3d3;
+    color: #141414;
+  }
+  
+  .section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .upload-logo {
+    margin-right: 20px;
+  }
+  
+  .logo-placeholder {
+    position: relative;
+  }
+  
+  .logo-placeholder button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #a7a7a7;
+    border-radius: 10px;
+    width: 100%;
+  }
